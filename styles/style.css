@@ -44,26 +44,29 @@ main {
 .logo_black{
   width: 100%;
 }
-.adress{
-    font-style: inherit;
-    justify-self: end;
+.address {
+  font-style: inherit;
 }
 
 .header_address {
-    font-style: inherit;
-    
-  }
+  justify-self: end;
+  font-style: inherit;
+}
 
-.address_link {
-    font-style: inherit;
-    display: block;
-    font-size: 18px;
-    line-height: 1.35;
-    text-underline-position: under;
-  }
+.address_item {
+  display: block;
+  font-size: 18px;
+  line-height: 1.35;
+  text-underline-position: under;
+}
+
+.address_address-text {
+  font-size: 18px;
+  line-height: 1.35;
+}
 
 .contact_list{
-    list-style: none;
+ list-style: none;
 }
 
 .header_text {
@@ -281,6 +284,10 @@ footer {
   display: flex;
   justify-content: space-between;
   padding: 180px 50px 80px;
+}
+
+.footer_address {
+  font-style: inherit;
 }
 
 .footer_menu-list {
