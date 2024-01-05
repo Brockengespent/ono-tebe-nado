@@ -64,7 +64,7 @@ main {
   line-height: 1.35;
 }
 
-.contact_list{
+.contact_list {
  list-style: none;
 }
 
@@ -74,7 +74,7 @@ main {
     font-style: inherit;
   }
 
-.cover{
+.cover {
   position: relative;
   padding: 165px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
@@ -106,13 +106,13 @@ main {
     letter-spacing: 30px;
     text-transform: uppercase;
   }
-.align_text{
+.align_text {
     display: block;
 }
-.letter-spacing{
+.letter-spacing {
     letter-spacing: 60px;
 }
-.letter-spacing-normal{
+.letter-spacing-normal {
     letter-spacing: normal;
 }
 .text_center {
@@ -159,7 +159,7 @@ button {
     padding: 0 50px;
   }
 
-  .lots_title{
+  .lots_title {
     padding: 0 0 30px 40px;
   font-weight: bold;
   font-size: 40px;
@@ -167,14 +167,14 @@ button {
   text-transform: uppercase;
   }
 
-.card_list{
+.card_list {
     display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 25px;
   list-style: none;
 }
 
-.card_list-item{
+.card_list-item {
   height: 100%;
   
 }
