@@ -25,23 +25,23 @@ main {
   text-decoration: none;
 }
 
-.header_menu-list-item {
+.header_menu-list-item{
   list-style: circle;
 }
 
-.header_menu-item_none {
+.header_menu-item_none{
   list-style: none;
 }
 
 .header_logo {
    display: block;
-  justify-self: center;
-  align-self: center;
+  padding-left: 31px;
+  
   width: 140px;
   cursor: pointer;
 }
 
-.logo_black {
+.logo_black{
   width: 100%;
 }
 .address {
@@ -65,7 +65,7 @@ main {
   line-height: 1.35;
 }
 
-.contact_list {
+.contact_list{
  list-style: none;
 }
 
@@ -75,7 +75,7 @@ main {
     font-style: inherit;
   }
 
-.cover {
+.cover{
   position: relative;
   padding: 165px 50px 50px 50px;
   background-image: url(../images/cover.jpg);
@@ -107,22 +107,23 @@ main {
     letter-spacing: 30px;
     text-transform: uppercase;
   }
-.align_text {
+.align_text{
     display: block;
 }
-.letter-spacing {
+.letter-spacing{
     letter-spacing: 60px;
 }
-.letter-spacing-normal {
+.letter-spacing-normal{
     letter-spacing: normal;
 }
 .text_center {
     line-height: 1;
     text-align: center;
   }
-.text_right {
+.text_right{
     line-height: 1;
-    text-align: right;
+    padding-left: 585px;
+    
 }
 .cover_description {
     position: relative;
@@ -159,7 +160,7 @@ button {
     padding: 0 50px;
   }
 
-  .lots_title {
+  .lots_title{
     padding: 0 0 30px 40px;
   font-weight: bold;
   font-size: 40px;
@@ -167,15 +168,16 @@ button {
   text-transform: uppercase;
   }
 
-.card_list {
+.card_list{
     display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 25px;
   list-style: none;
 }
 
-.card_list-item {
-    height: 100%;
+.card_list-item{
+  height: 100%;
+  
 }
 
 .card_title {
@@ -197,36 +199,36 @@ button {
     line-height: 1.2;
   }
   
-.film_card {
+.film_card{   
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.book_card {
+.book_card{
     background-image: url(../images/card-lot-02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.picture_card {
+.picture_card{
     background-image: url(../images/card-lot-03.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.card {
+.card{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 30px;
-    width: auto;
-    height: 100%;
+    
+    width: 329px;
+    height: 554px;
     padding: 50px 40px;
 }
 
-.lots_link {
+.lots_link{
     display: block;
     margin: 30px 0 0 40px;
     font-size: 20px;
