@@ -36,7 +36,8 @@ main {
 .header_logo {
   display: block;
   padding-left: 31px;
-  width: 140px;
+  width: 148px;
+  height: 105px;
   cursor: pointer;
 }
 
