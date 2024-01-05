@@ -119,7 +119,7 @@ main {
     line-height: 1;
     text-align: center;
   }
-.text_right{
+.text_right {
     line-height: 1;
     padding-left: 585px;
     
@@ -198,7 +198,7 @@ button {
     line-height: 1.2;
   }
   
-.film_card {   
+.film_card {
     background-image: url(../images/card-lot-01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
