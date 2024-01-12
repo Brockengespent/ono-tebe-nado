@@ -7,7 +7,7 @@ flex-direction: column;
 display: grid;
 grid-template-columns: 1.51fr 2fr 1.5fr;
 align-items: center;
-padding: 91px 50px 90px 50px;
+padding: 91px 50px 94px 50px;
 }
 
 .header_menu-list {
