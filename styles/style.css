@@ -51,7 +51,6 @@ font-style: inherit;
 .header_address {
 justify-self: end;
 font-style: inherit;
-padding-right: 15px;
 }
 
 .address_item {
@@ -78,7 +77,7 @@ font-style: inherit;
 
 .cover {
 position: relative;
-padding: 165px 47px 47px 50px;
+padding: 165px 50px 53px 50px;
 background-image: url(../images/cover.jpg);
 background-repeat: no-repeat;
 background-size: cover;
@@ -100,7 +99,7 @@ position: relative;
 z-index: 1;
 display: flex;
 flex-direction: column;
-gap: 16px;
+gap: 20px;
 color: #FFF;
 font-weight: bold;
 font-size: 100px;
@@ -124,12 +123,13 @@ letter-spacing: normal;
 .text_center {
 line-height: 1;
 text-align: center;
-padding-right: 10px;
+padding-right: 12px;
 }
 
 .text_right {
 line-height: 1;
 text-align: right;
+padding-left: 574px;
 }
 
 .cover_description {
@@ -232,7 +232,7 @@ background-image: url(../images/card-lot-03.jpg);
 
 .lots_link {
 display: block;
-margin: 23px 0 0 40px;
+margin: 30px 0 0 40px;
 font-size: 20px;
 text-decoration-line: underline;
 text-underline-position: under;
